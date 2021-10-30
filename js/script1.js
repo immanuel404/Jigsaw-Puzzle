@@ -8,18 +8,18 @@ checkGame = setInterval(function() {
 	var flag = 0;
 
 	const imageList = [
-		'file:///C:/Users/Manuel/Downloads/Puzzle/imgs/img1/img1.1.1.jpg',
-		'file:///C:/Users/Manuel/Downloads/Puzzle/imgs/img1/img1.2.1.jpg',
-		'file:///C:/Users/Manuel/Downloads/Puzzle/imgs/img1/img1.3.1.jpg',
-		'file:///C:/Users/Manuel/Downloads/Puzzle/imgs/img1/img1.4.1.jpg',
-		'file:///C:/Users/Manuel/Downloads/Puzzle/imgs/img1/img1.1.2.jpg',
-		'file:///C:/Users/Manuel/Downloads/Puzzle/imgs/img1/img1.2.2.jpg',
-		'file:///C:/Users/Manuel/Downloads/Puzzle/imgs/img1/img1.3.2.jpg',
-		'file:///C:/Users/Manuel/Downloads/Puzzle/imgs/img1/img1.4.2.jpg',
-		'file:///C:/Users/Manuel/Downloads/Puzzle/imgs/img1/img1.1.3.jpg',
-		'file:///C:/Users/Manuel/Downloads/Puzzle/imgs/img1/img1.2.3.jpg',
-		'file:///C:/Users/Manuel/Downloads/Puzzle/imgs/img1/img1.3.3.jpg',
-		'file:///C:/Users/Manuel/Downloads/Puzzle/imgs/img1/img1.4.3.jpg'
+		'https://immanuel404.github.io/web_Game3-Jigsaw/imgs/img1/img1.1.1.jpg',
+		'https://immanuel404.github.io/web_Game3-Jigsaw/imgs/img1/img1.2.1.jpg',
+		'https://immanuel404.github.io/web_Game3-Jigsaw/imgs/img1/img1.3.1.jpg',
+		'https://immanuel404.github.io/web_Game3-Jigsaw/imgs/img1/img1.4.1.jpg',
+		'https://immanuel404.github.io/web_Game3-Jigsaw/imgs/img1/img1.1.2.jpg',
+		'https://immanuel404.github.io/web_Game3-Jigsaw/imgs/img1/img1.2.2.jpg',
+		'https://immanuel404.github.io/web_Game3-Jigsaw/imgs/img1/img1.3.2.jpg',
+		'https://immanuel404.github.io/web_Game3-Jigsaw/imgs/img1/img1.4.2.jpg',
+		'https://immanuel404.github.io/web_Game3-Jigsaw/imgs/img1/img1.1.3.jpg',
+		'https://immanuel404.github.io/web_Game3-Jigsaw/imgs/img1/img1.2.3.jpg',
+		'https://immanuel404.github.io/web_Game3-Jigsaw/imgs/img1/img1.3.3.jpg',
+		'https://immanuel404.github.io/web_Game3-Jigsaw/imgs/img1/img1.4.3.jpg'
 	];
 
 	for (var i=0; i<imageList.length; i++) {
