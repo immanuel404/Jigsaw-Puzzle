@@ -23,16 +23,20 @@ checkGame = setInterval(function() {
 	];
 
 	for (var i=0; i<imageList.length; i++) {
-		console.log(items[i].src);
+		// console.log(items[i].src);
 		if(items[i].src == imageList[i]){
 			++flag;
+			// console.log(flag);
 		} else {}
 	}
 	if(flag == 12){
 		for (var i=0; i<imageList.length; i++) {
 			completion = true;
 			document.querySelectorAll('.list img')[i].style.margin = "0px";
-			document.querySelector('.list').style.boxShadow = "10px 10px 15px white, -10px -10px 15px lightblue";
+			document.querySelector('.list').style.boxShadow = "12px 12px 18px white, -12px -12px 18px skyblue";
+			clearInterval(checkGame);
+			var sound = new Audio("sound/applause.mp3");
+			sound.play();
 		}
 	}
 }, 1000);
@@ -56,7 +60,7 @@ function dragStart(e) {
 	dragStartIndex = e.target.id;
 
 	const first = document.getElementById(dragStartIndex).src;
-	console.log(first);
+	// console.log(first);
 }
 
 function dragOver(e) {
@@ -90,15 +94,15 @@ timer = setInterval(function () {
 	document.getElementById('clock').innerHTML = countdown;
 
 	if(completion == true){
-		clearInterval(timer);
 		document.getElementById('clock').innerHTML = "00";
 		document.getElementById('clock').style.backgroundColor = "white";
+		clearInterval(timer);
 	}
 
 	if (countdown == 0) {
-		clearInterval(timer);
 		document.getElementById('clock').innerHTML = "00";
 		document.getElementById('clock').style.backgroundColor = "red";
+		clearInterval(timer);
 
 		setTimeout(function(){
 			window.location.replace("index.html");
