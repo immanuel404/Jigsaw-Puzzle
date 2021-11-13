@@ -12,15 +12,21 @@ body {
 	background-color: #9FBCBA;
 }
 
+#title {
+	width: 200px;
+	height: 60px;
+	border-radius: 8px;
+	margin: 20px auto 40px auto;
+	background: lightblue;
+	box-shadow: 8px 8px 15px grey,
+	            -1px -1px 15px #ffffff;
+}
+
 h1 {
 	text-align: center;
 	font-size: 50px;
-	color:  blue;
+	color: blue;
 	font-style: italic;
-}
-
-#mobileCompatibility {
-	display: none;
 }
 
 .container {
@@ -77,6 +83,10 @@ h1 {
 
 
 /*Puzzle Stylings*/
+#mobileCompatibility {
+	display: none;
+}
+
 #clock {
 	background-color: white;
 	border-radius: 50%;
@@ -129,20 +139,19 @@ h2 {
 
 
 /*MEDIA QUERY_MOBILE*/
-@media (max-width: 768px) {
+@media (max-width: 823px) {
 
 	/*Home-Page Stylings*/
+	#title {
+	width: 145px;
+	height: 45px;
+	border-radius: 8px;
+	}
 	h1 {
 		text-align: center;
 		font-size: 35px;
 		color: blue;
 		font-style: italic;
-	}
-	#mobileCompatibility {
-		display: block;
-		text-align: center;
-		font-size: 12px;
-		color: lightblue;
 	}
 	.container {
 		display: flex;
@@ -171,6 +180,12 @@ h2 {
 
 
 	/*Puzzle Stylings*/
+	#mobileCompatibility {
+		display: block;
+		text-align: center;
+		font-size: 12px;
+		color: lightblue;
+	}
 	#clock {
 		background-color: white;
 		border-radius: 50%;
