@@ -36,6 +36,7 @@ checkGame = setInterval(function() {
 			document.querySelector('.list').style.boxShadow = "12px 12px 18px white, -12px -12px 18px skyblue";
 			clearInterval(checkGame);
 			var sound = new Audio("sound/applause.mp3");
+			sound.volume = 0.05;
 			sound.play();
 		}
 	}
