@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web_Game3-Jigsaw/static/css/main.7c882c84.css",
-    "main.js": "/web_Game3-Jigsaw/static/js/main.196966a2.js",
+    "main.css": "/web_Game3-Jigsaw/static/css/main.e1ffa046.css",
+    "main.js": "/web_Game3-Jigsaw/static/js/main.fe682eeb.js",
     "static/js/787.dc03b30a.chunk.js": "/web_Game3-Jigsaw/static/js/787.dc03b30a.chunk.js",
     "static/media/img1.jpg": "/web_Game3-Jigsaw/static/media/img1.d2ecb4f960de6d1ac6d5.jpg",
     "static/media/img2.jpg": "/web_Game3-Jigsaw/static/media/img2.e3974b86f4733d48cc2c.jpg",
@@ -12,12 +12,12 @@
     "static/media/img1.3.2.jpg": "/web_Game3-Jigsaw/static/media/img1.3.2.38f5e45e641e6d4a96bc.jpg",
     "static/media/img1.2.3.jpg": "/web_Game3-Jigsaw/static/media/img1.2.3.4e0c5be4bdc6e644590c.jpg",
     "index.html": "/web_Game3-Jigsaw/index.html",
-    "main.7c882c84.css.map": "/web_Game3-Jigsaw/static/css/main.7c882c84.css.map",
-    "main.196966a2.js.map": "/web_Game3-Jigsaw/static/js/main.196966a2.js.map",
+    "main.e1ffa046.css.map": "/web_Game3-Jigsaw/static/css/main.e1ffa046.css.map",
+    "main.fe682eeb.js.map": "/web_Game3-Jigsaw/static/js/main.fe682eeb.js.map",
     "787.dc03b30a.chunk.js.map": "/web_Game3-Jigsaw/static/js/787.dc03b30a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c882c84.css",
-    "static/js/main.196966a2.js"
+    "static/css/main.e1ffa046.css",
+    "static/js/main.fe682eeb.js"
   ]
 }
